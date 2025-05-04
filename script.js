@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	const str =text.trim();
-	if(str =='')
+	if(str.length==0)
 		return '';
 	else return str[0];
 }
